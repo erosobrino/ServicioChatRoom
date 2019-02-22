@@ -1,6 +1,6 @@
 ﻿namespace ServicioChatRoom
 {
-    partial class Service1
+    partial class ServicioChatRoom
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -28,8 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // ServicioChatRoom
+            // 
+            this.AutoLog = false;
+            this.CanShutdown = true;
+            this.ServiceName = "ChatRoom";
+
         }
 
         #endregion
