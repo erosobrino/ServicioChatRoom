@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace ServicioChatRoom
 {
+    //Validado
     public partial class ServicioChatRoom : ServiceBase
     {
         List<ClientData> data;
